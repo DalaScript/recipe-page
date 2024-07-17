@@ -1,0 +1,342 @@
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
+$brandy-red: #854632;
+$dark-raspberry: #7A284E;
+/* Neutral
+ ***************/
+$white: #FFFFFF;
+$rose-white: #FFF7FB;
+$eggshell: #F3E5D7;
+$white-coffee: #E3DDD7;
+$wenge-brown: #5F564D;
+$dark-charcoal: #312E2C;
+
+/* mixins
+ ******************************/
+@mixin heading($size) {
+    font-family: 'Young Serif';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    
+
+    @if $size == 'L' {
+        /* Heading L */
+        font-size: 36px;
+
+        color: $dark-charcoal;
+    }@else if $size == "M" {
+        /* Heading M */
+        font-size: 28px;
+
+        color: $brandy-red;
+    }@else if $size == "S" {
+        /* Heading S */
+        font-family: 'Outfit';
+        font-size: 20px;
+        font-weight: 600;
+        color: $dark-raspberry;
+    }
+    
+
+    
+}
+
+@mixin body($type, $color) {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: $color;
+
+    @if $type == "regular" {
+        /* Body (Regular) */
+        font-weight: 400;
+    }@else if $type == "bold" {
+        /* Body (Regular) */
+        font-weight: 700;
+    }
+}
+
+/* Global Variables
+ ******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $eggshell;
+}
+
+/* subtitles
+ ***************/
+.subtitle {
+    margin-bottom: 24px;
+
+    @include heading("M");
+}
+
+/* list items
+ ***************/
+.li {
+    padding-left: 8px;
+    list-style: none;
+
+    li {
+        padding-left: 32px;
+
+        @include body("regular", $wenge-brown);
+
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+        }
+
+        &:not(:first-child) {
+            margin-top: 8px;
+        }
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    &.ul-type {
+        li {
+            &::before {
+                top: 50%;
+                
+                width: 4px;
+                height: 4px;
+                transform: translateY(-50%);
+                border-radius: 50%;
+
+                background-color: $dark-raspberry;
+            }
+        }
+    }
+
+    &.ol-type {
+        li {
+            &::before {
+                top: 0;
+
+                @include body("bold", $brandy-red);
+            }
+
+            &:nth-child(1)::before {
+                content: '1.';
+            }
+            &:nth-child(2)::before {
+                content: '2.';
+            }
+            &:nth-child(3)::before {
+                content: '3.';
+            }
+            &:nth-child(4)::before {
+                content: '4.';
+            }
+            &:nth-child(5)::before {
+                content: '5.';
+            }
+            &:nth-child(6)::before {
+                content: '6.';
+            }
+            &:nth-child(7)::before {
+                content: '7.';
+            }
+            &:nth-child(8)::before {
+                content: '8.';
+            }
+        }
+    }
+}
+
+/* body variables
+ ******************************/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .recipe-card {
+        background-color: $white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* recipe card
+ ******************************/
+.recipe-card {
+    .hero-img {
+        display: flex;
+    }
+
+    .text-content {
+        padding: 40px 32px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .ingredients,
+    .instructions {
+        padding-bottom: 32px;
+        box-shadow: 0 1px 0 0 $white-coffee;
+    }
+}
+
+/* hero image
+ ******************************/
+.hero-img {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* text content
+ ******************************/
+.text-content {
+    .preparation {
+        padding: 24px;
+        border-radius: 12px;
+        background-color: $rose-white;
+    }
+}
+
+/* title container
+ ******************************/
+.title-container {
+    .recipe-title {
+        @include heading("L");
+    }
+    
+    .recipe-caption {
+        @include body("regular", $wenge-brown);
+    }
+}
+
+/* preparation section
+ ******************************/
+.preparation {
+    .preparation-title {
+        margin-bottom: 16px;
+        
+        @include heading("S");
+    }
+
+    .preparation ul {
+        li::before {
+            background-color: $dark-raspberry;
+        }
+    }
+}
+
+/* ingredients section
+ ******************************/
+.ingredients {
+    ul {
+        li {
+            &::before {
+                background-color: $brandy-red;
+            }
+        }
+    }
+}
+
+/* nutrition section
+ ******************************/
+.nutrition {
+    .table-title {
+        margin-bottom: 24px;
+
+        @include body("regular", $wenge-brown);
+    }
+
+    table {
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+
+        tr {
+            &:not(:first-child) {
+                th,
+                td {
+                    padding-top: 12px
+                }
+            }
+
+            &:not(:last-child) {
+                box-shadow: 0 1px 0 0 $white-coffee;
+
+                th,
+                td {
+                    padding-bottom: 12px;
+                }
+            }
+            
+            th {
+                padding-left: 32px;
+                width: 50%;
+                @include body("regular", $wenge-brown);
+            }
+
+            td {
+                padding-left: 16px;
+                width: 50%;
+                @include body("bold", $brandy-red);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 736px) {
+    main {
+        .recipe-card {
+            margin: 124px 0;
+            padding: 40px;
+            max-width: 736px; 
+            width: 100%;
+            border-radius: 24px;
+
+            gap: 40px;
+        }
+    }
+
+    .recipe-card {
+        .text-content {
+            padding: 0;
+        }
+    }
+    
+    .hero-img {
+        img {
+            border-radius: 12px;
+        }
+    }
+
+    .text-content {
+        .preparation {
+            padding: 28px;
+        }
+    }
+
+    .title-container {
+        .recipe-title {
+            margin-bottom: 24px;
+            font-size: 40px;
+        }
+    }
+}
