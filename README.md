@@ -13,6 +13,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+  - [Connect with Me](#Connect with Me)
+  - [Coding Profiles](#Coding Profiles)
+  - [Professional Links](#Professional Links)
 
 ## Overview
 
