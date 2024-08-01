@@ -33,6 +33,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- bem - [Block Element Modifier](https://getbem.com/introduction/)
 - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
 ### What I learned
