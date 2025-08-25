@@ -1,4 +1,4 @@
-# Recipe page | Frontend Mentor
+# Recipe Page | Frontend Mentor
 
 **Challenge 2**
 
