@@ -1,0 +1,85 @@
+/* || List
+ *************************/
+.list {
+    padding-left: 0.5rem;
+}
+
+/* || List Items
+ *************************/
+.list__item {
+    padding-left: 2rem;
+
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--wenge-brown);
+
+    position: relative;
+}
+
+.list__item span {
+    font-weight: 700;
+}
+
+.list__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.list__item:not(:first-child) {
+    margin-top: 0.5rem;
+}
+
+/* || Unordered List
+ *************************/
+.list--unordered .list__item::before {
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background-color: var(--dark-raspberry);
+    
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list--unordered .list__item--accent::before {
+    background-color: var(--brandy-red);
+}
+
+/* || Ordered List
+ *************************/
+.list--ordered .list__item::before {
+    top: 0;
+
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--brandy-red);
+}
+
+.list--ordered .list__item:nth-child(1)::before {
+    content: '1.';
+}
+
+.list--ordered .list__item:nth-child(2)::before {
+    content: '2.';
+}
+
+.list--ordered .list__item:nth-child(3)::before {
+    content: '3.';
+}
+
+.list--ordered .list__item:nth-child(4)::before {
+    content: '4.';
+}
+
+.list--ordered .list__item:nth-child(5)::before {
+    content: '5.';
+}
+
+.list--ordered .list__item:nth-child(6)::before {
+    content: '6.';
+}

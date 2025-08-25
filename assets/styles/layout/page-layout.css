@@ -1,0 +1,13 @@
+/* || Body
+ *************************/
+body {
+    background-color: var(--eggshell);
+}
+
+/* || Main
+ *************************/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

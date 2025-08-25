@@ -1,73 +1,68 @@
-# Frontend Mentor - Recipe page solution
+# Recipe page | Frontend Mentor
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-  - [Connect with Me](#Connect-with-Me)
-  - [Coding Profiles](#Coding-Profiles)
+## 📚 Table of contents
 
-## Overview
+- [🔎 Overview](#-overview)
+  - [📸 Screenshot](#-screenshot)
+  - [🔗 Links](#-links)
+  - [🛠️ Built with](#️-built-with)
+- [🧠 My process](#-my-process)
+  - [🔙 Previous Project](#-previous-project)
+  - [🔜 Next Project](#-next-project)
+- [👤 About Me](#-about-me)
+  - [🌐 Connect with Me](#-connect-with-me)
+  - [💻 Coding Profiles](#-coding-profiles)
 
-### Screenshot
+---
+
+## 🔎 Overview
+
+### 📸 Screenshot
 
 ![](./assets/images/screenshot/screenshot.jpg)
 
-### Links
+### 🔗 Links
 
-- [Solution URL](https://github.com/DalaScript/recipe-page)
-- [Live Site URL](https://DalaScript.github.io/recipe-page/)
+  - [🔴 Live Demo](https://DalaScript.github.io/recipe-page/)
+  - [🗂️ GitHub Repository](https://github.com/DalaScript/recipe-page)
 
-## My process
+### 🛠️ Built with
 
-### Built with
+  - HTML5
+  - CSS3
+  - Flexbox
+  - Mobile-first workflow
+  - bem - [Block Element Modifier](https://getbem.com/introduction/)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- bem - [Block Element Modifier](https://getbem.com/introduction/)
-- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
+---
 
-### What I learned
+## 🧠 My process
 
-I learned a little more about tables because in this challenge, there were certain table obstacles that I worked on the most. And also list items bullets, this was also one of the obstacles, and now I know how to make list items bullets using before and after.
+### 🔙 Previous Project
 
-```css
-table {
-  border-collapse: collapse;
-}
-```
+  - QR Code Component | *Challenge 1* → [View Repository](https://github.com/DalaScript/qr-code-component)
 
-### Continued development
+### 🔜 Next Project
 
-First I want to finish the javascript course I'm taking on freecodecamp, I'm also going through the learning path on Frontendmentor, and after that I want to focus more on React, Next.js and Node.js.
+  - Blog Preview Card | *Challenge 3* → [View Repository](https://github.com/DalaScript/blog-preview-card)
 
-### Useful resources
+---
 
-- [ChatGPT](https://chatgpt.com/) - He is my hero, if I need something fast, if I can't understand something, or if I can't find it on the internet, I always ask him.
-- [W3Schools](https://www.w3schools.com/) - This is my favorite documentation platform I've been using since I started programming, it's the best explained resource.
-- [YouTube](https://www.youtube.com/) - I'm always looking for news and listening to other developers, sharing their experiences so that I can see many different solutions to a problem.
+## 👤 About Me
 
-## Author
+### 🌐 Connect with Me
 
-### Connect with Me
+  - [Instagram](https://www.instagram.com/DalaScript)
+  - [YouTube](https://www.youtube.com/@DalaScript)
 
-- [Instagram](https://www.instagram.com/DalaScript)
-- [YouTube](https://www.youtube.com/@DalaScript)
-- [TikTok](https://www.tiktok.com/@CodeWithDala)
+### 💻 Coding Profiles
 
-### Coding Profiles
+  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+  - [GitHub](https://github.com/DalaScript)
 
-- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-- [GitHub](https://github.com/DalaScript)
+*🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*

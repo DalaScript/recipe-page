@@ -1,0 +1,44 @@
+/* || Table
+ *************************/
+.nutrition-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.nutrition-table tr:not(:first-child) .nutrition-table__header,
+.nutrition-table tr:not(:first-child) .nutrition-table__data{
+    padding-top: 0.75rem;
+}
+
+.nutrition-table tr:not(:last-child),
+.nutrition-table tr:not(:last-child) {
+    box-shadow: 0 1px 0 0 var(--white-coffee);
+}
+
+.nutrition-table tr:not(:last-child) .nutrition-table__header,
+.nutrition-table tr:not(:last-child) .nutrition-table__data {
+    padding-bottom: 0.75rem;
+}
+
+.nutrition-table tr .nutrition-table__header {
+    padding-left: 2rem;
+    width: 50%;
+
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--wenge-brown);
+}
+
+.nutrition-table tr .nutrition-table__data {
+    padding-left: 1rem;
+    width: 50%;
+
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--brandy-red);
+}

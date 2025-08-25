@@ -1,0 +1,22 @@
+/* || Fonts Imports ('Outfit and Young Serif')
+ *************************/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* || Global Variables
+ *************************/
+:root {
+    /* || Colors
+     *************************/
+    /* || Primary
+     *************************/
+    --brandy-red: #854632;
+    --dark-raspberry: #7A284E;
+    /* || Neutral
+     *************************/
+    --white: #FFFFFF;
+    --rose-white: #FFF7FB;
+    --eggshell: #F3E5D7;
+    --white-coffee: #E3DDD7;
+    --wenge-brown: #5F564D;
+    --dark-charcoal: #312E2C;
+}
