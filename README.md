@@ -13,8 +13,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [🔗 Links](#-links)
   - [🛠️ Built with](#️-built-with)
 - [🧠 My process](#-my-process)
-  - [🔙 Previous Project](#-previous-project)
-  - [🔜 Next Project](#-next-project)
+  - [🔙 Previous Challenge](#-previous-challenge)
+  - [🔜 Next Challenge](#-next-challenge)
 - [👤 About Me](#-about-me)
   - [🌐 Connect with Me](#-connect-with-me)
   - [💻 Coding Profiles](#-coding-profiles)
@@ -44,11 +44,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## 🧠 My process
 
-### 🔙 Previous Project
+### 🔙 Previous Challenge
 
   - QR Code Component | *Challenge 1* → [View Repository](https://github.com/DalaScript/qr-code-component)
 
-### 🔜 Next Project
+### 🔜 Next Challenge
 
   - Blog Preview Card | *Challenge 3* → [View Repository](https://github.com/DalaScript/blog-preview-card)
 
