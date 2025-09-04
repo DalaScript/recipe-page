@@ -1,0 +1,44 @@
+/* || Table
+ *************************/
+.nutrition-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+    & tr:not(:first-child) &__header,
+    & tr:not(:first-child) &__data {
+        padding-top: 0.75rem;
+    }
+
+    & tr:not(:last-child),
+    & tr:not(:last-child) {
+        box-shadow: 0 1px 0 0 $white-coffee;
+    }
+
+    & tr:not(:last-child) &__header,
+    & tr:not(:last-child) &__data {
+        padding-bottom: 0.75rem;
+    }
+
+    & tr &__header {
+        padding-left: 2rem;
+        width: 50%;
+
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: $wenge-brown;
+    }
+
+    & tr &__data {
+        padding-left: 1rem;
+        width: 50%;
+
+        font-family: 'Outfit';
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: $brandy-red;
+    }
+}

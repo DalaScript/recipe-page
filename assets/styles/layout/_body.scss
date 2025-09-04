@@ -1,10 +1,10 @@
-/* || Body
+/* || Body Element
  *************************/
 body {
-    background-color: var(--eggshell);
+    background-color: $eggshell;
 }
 
-/* || Main
+/* || Main Element
  *************************/
 main {
     display: flex;

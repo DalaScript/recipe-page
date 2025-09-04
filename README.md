@@ -29,16 +29,16 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### 🔗 Links
 
-  - [🔴 Live Demo](https://DalaScript.github.io/recipe-page/)
-  - [🗂️ GitHub Repository](https://github.com/DalaScript/recipe-page)
+- [🔴 Live Demo](https://DalaScript.github.io/recipe-page/)
+- [🗂️ GitHub Repository](https://github.com/DalaScript/recipe-page)
 
 ### 🛠️ Built with
 
-  - HTML5
-  - CSS3
-  - Flexbox
-  - Mobile-first workflow
-  - bem - [Block Element Modifier](https://getbem.com/introduction/)
+- HTML5
+- CSS3
+- Flexbox
+- Mobile-first workflow
+- bem - [Block Element Modifier](https://getbem.com/introduction/)
 
 ---
 
@@ -46,11 +46,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### 🔙 Previous Challenge
 
-  - QR Code Component | *Challenge 1* → [View Repository](https://github.com/DalaScript/qr-code-component)
+- QR Code Component | *Challenge 1* → [View Repository](https://github.com/DalaScript/qr-code-component)
 
 ### 🔜 Next Challenge
 
-  - Blog Preview Card | *Challenge 3* → [View Repository](https://github.com/DalaScript/blog-preview-card)
+- Blog Preview Card | *Challenge 3* → [View Repository](https://github.com/DalaScript/blog-preview-card)
 
 ---
 
@@ -58,13 +58,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### 🌐 Connect with Me
 
-  - [Instagram](https://www.instagram.com/DalaScript)
-  - [YouTube](https://www.youtube.com/@DalaScript)
+- [Instagram](https://www.instagram.com/DalaScript)
+- [YouTube](https://www.youtube.com/@DalaScript)
 
 ### 💻 Coding Profiles
 
-  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-  - [GitHub](https://github.com/DalaScript)
+- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+- [GitHub](https://github.com/DalaScript)
 
 *🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*

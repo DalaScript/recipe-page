@@ -1,0 +1,17 @@
+/* || main scss styles
+ *************************/
+
+/* || import base styles
+ *************************/
+@import 'base/variables';
+@import 'base/reset';
+
+/* || import layout styles
+ *************************/
+@import 'layout/body';
+
+/* || import components styles
+ *************************/
+@import 'components/recipe-card';
+@import 'components/list';
+@import 'components/nutrition-table';

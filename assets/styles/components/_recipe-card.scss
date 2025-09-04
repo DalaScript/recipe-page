@@ -1,0 +1,134 @@
+/* || Recipe Card
+ *************************/
+.recipe-card {
+    background-color: $white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* || Picture
+     *************************/
+    &__hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* || Text Content
+     *************************/
+    &__text-content {
+        padding: 2.5rem 2rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* || Header
+     *************************/
+    &__title {
+        margin-bottom: 1.5rem;
+
+        font-family: 'Young Serif';
+        font-size: 2.25rem;
+        font-weight: 400;
+        line-height: 1;
+
+        color: $dark-charcoal;
+    }
+
+    &__description {
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+
+        color: $wenge-brown;
+    }
+
+    /* || Preparation Section
+     *************************/
+    &__preparation {
+        padding: 1.5rem;
+        border-radius: 12px;
+        background-color: $rose-white;
+    }
+
+    &__preparation-title {
+        margin-bottom: 1rem;
+
+        font-family: 'Outfit';
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1;
+
+        color: $dark-raspberry;
+    }
+
+    /* || Ingredients Section
+     *************************/
+    &__ingredients {
+        padding-bottom: 2rem;
+        box-shadow: 0 1px 0 0 $white-coffee;
+    }
+
+    /* Global */
+    &__subtitle {
+        margin-bottom: 1.5rem;
+
+        font-family: 'Young Serif';
+        font-size: 1.75rem;
+        font-weight: 400;
+        line-height: 1;
+
+        color: $brandy-red;
+    }
+
+    /* || Instructions Section
+     *************************/
+    &__instructions {
+        padding-bottom: 2rem;
+        box-shadow: 0 1px 0 0 $white-coffee;
+    }
+
+    /* || Nutrition Section
+     *************************/
+    &__table-title {
+        margin-bottom: 1.5rem;
+
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: $wenge-brown;
+    }
+}
+
+@media (min-width: 736px) {
+    .recipe-card {
+        margin: 7.75rem 0 calc(7.75rem - 1px);
+        padding: 2.5rem;
+        max-width: 736px;
+        width: 100%;
+        border-radius: 24px;
+
+        gap: 2.5rem;
+
+        &__hero-img {
+            border-radius: 12px;
+        }
+
+        &__text-content {
+            padding: 0;
+        }
+
+        &__title {
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+        }
+
+        &__preparation {
+            padding: 1.75rem;
+        }
+    }
+}
